@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelValidation", "ModelValidation\ModelValidation.csproj", "{119F7F3C-BB2D-4224-9495-D7F2A9597A79}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{119F7F3C-BB2D-4224-9495-D7F2A9597A79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{119F7F3C-BB2D-4224-9495-D7F2A9597A79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{119F7F3C-BB2D-4224-9495-D7F2A9597A79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{119F7F3C-BB2D-4224-9495-D7F2A9597A79}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F3AFD8B2-57B4-46BA-BB21-1E91A9114F79}
+	EndGlobalSection
+EndGlobal
