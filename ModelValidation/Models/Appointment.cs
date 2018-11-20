@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ModelValidation.Infrastructure;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -11,6 +12,7 @@ namespace ModelValidation.Models
         public string ClientName { get; set; }
         [DataType(DataType.Date)]
         public DateTime Date { get; set; }
+        [MustBeTrue(ErrorMessage = "You must...")]
         public bool TermsAccepted { get; set; }
     }
 }
